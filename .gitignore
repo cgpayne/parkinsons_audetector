@@ -1,0 +1,17 @@
+# general ignores
+**/__pycache__/*
+
+# data
+data/*
+#data/**
+#!data/**/
+#!data/my_meta.txt
+
+# figures
+figures/*
+
+# jupyter notebooks
+notebooks/**/.ipynb_checkpoints/*
+
+# general keeps
+!**/.gitkeep
